@@ -5,7 +5,6 @@
 }
 .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -14,9 +13,11 @@
 .container form {
   background-color: white;
   padding: 20px;
+  border-radius: 10px;
+  
 }
 h1 {
-  margin: 30px;
+  margin: 40px;
   color: rgb(31, 7, 53);
   font-family: bold;
   font-size: 40px;
@@ -30,7 +31,7 @@ h1 {
 }
 label {
   color: rgb(31, 7, 53);
-  font-family: bold;
+  font-weight: bold;
   font-size: 20px;
 }
 input[type="text"],

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    background-color:blue;
+    width: 100%;
+    height:30%;
+}
+.section3{
+    background-color: aqua;
+    width: 100%;
+    height:70%;
+}
+.icon_image{
+    width:30px;
+    height: 30px;
+}
