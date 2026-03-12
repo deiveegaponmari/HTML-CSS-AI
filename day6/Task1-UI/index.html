@@ -3,40 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UI Design-Task 1</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <div class="container">
-        <form>
+    <div class="container">
+      <form class="contact-form">
         <h1>Contact Us</h1>
-        <div class="name-fields">
+        <div class="row">
           <label for="firstname">Name:</label>
+          <div class="name-fields">
             <div class="field">
               <input type="text" id="firstname" name="firstname" />
               <small>First Name</small>
             </div>
             <div class="field">
-               <input type="text" id="lastname" name="lastname" />
-               <small>Last Name</small>
+              <input type="text" id="lastname" name="lastname" />
+              <small>Last Name</small>
             </div>
+          </div>
         </div>
         <br /><br />
-        <div>
+        <div class="row">
           <label for="email">E-mail:</label>
           <input type="email" id="email" name="email" />
         </div>
         <br /><br />
-        <div>
+        <div class="row">
           <label for="message">Message:</label>
           <textarea id="message" name="message" cols="100" rows="8"></textarea
           ><br />
         </div>
         <br />
-        <div>
+        <div class="row button-row">
           <button type="submit">Submit</button>
         </div>
-        </form>
-      </div>
+      </form>
+    </div>
   </body>
 </html>

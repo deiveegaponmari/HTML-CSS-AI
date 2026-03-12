@@ -2,60 +2,79 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgb(207, 227, 240);
+  background-color: #cfe3f0;
 }
-.container form {
+.contact-form {
   background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  
+  padding: 40px;
+  border-radius: 12px;
+  width:700px;
 }
 h1 {
-  margin: 40px;
-  color: rgb(31, 7, 53);
-  font-family: bold;
+  margin-bottom: 30px;
+  color: #1f0735;
   font-size: 40px;
+}
+.row{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+.row label{
+  width:120px;
+  font-weight: bold;
+  font-size:18px;
+  color:#1f0735;
 }
 .name-fields {
   display: flex;
+  gap:12px;
 }
 .field {
   display: flex;
   flex-direction: column;
 }
-label {
-  color: rgb(31, 7, 53);
-  font-weight: bold;
-  font-size: 20px;
-}
-input[type="text"],
-input[type="email"] {
-  padding: 5px;
-  margin: 5px;
+.field input{
+  width: 150px;
+  padding: 6px;
   border: 1px solid black;
   border-radius: 5px;
-  width: 40%;
+}
+small{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+input[type="email"]{
+  width: 350px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
 textarea {
-  padding: 10px;
-  margin: 5px;
+  width:350px;
   border: 1px solid black;
-  border-radius: 5px;
-  width: 25%;
+  border-radius: 4px;
+  padding: 8px;
+ 
+}
+.button-row{
+  justify-content: center;;
 }
 button {
   padding: 10px;
   margin: 5px auto;
-  border: 1px solid black;
+  border: none;
   border-radius: 5px;
-  width: 30%;
+  width: 200px;
   background-color: green;
   color: white;
   cursor: pointer;
