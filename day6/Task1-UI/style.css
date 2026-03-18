@@ -82,3 +82,11 @@ button {
 button:hover {
   background-color: rgb(5, 71, 5);
 }
+@media (max-width:600px){
+  .contact-form {
+    background-color: green;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
