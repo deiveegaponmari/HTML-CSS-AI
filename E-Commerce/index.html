@@ -22,14 +22,93 @@
             </nav>
         </header>
         <!--end of header-->
-        <main class="main">
+        <main class="main" id="main-section">
             <!--Hero section-->
             <section class="hero">
                 <h1>New Arrivals</h1>
                 <p>Trendy , Affordable and Delivered Fast</p>
                 <button>Shop Now</button>
             </section>
+            <!--end hero section-->
+            <!--products section-->
+            <section class="products-section">
+                <h2>Featured Products</h2>
+                <div>
+                    <input type="text" placeholder="seacrch products...." id="search products" name="search products"/>
+                </div>
+                <div class="product-grid" id="products-container">
+                    <div class="product-card">
+                        <img src="" alt=""/>
+                        <h3>Classic Shoes</h3>
+                        <p>$49.99</p>
+                        <p>
+                            <label>Qty</label>
+                            <input type="text" class="qty"/>
+                        </p>
+                        <button onclick="addCart(this)">Add to Cart</button>
+                    </div>
+                     <div class="product-card">
+                        <img src="" alt=""/>
+                        <h3>Smart Watch</h3>
+                        <p>$99.99</p>
+                        <p>
+                            <label>Qty</label>
+                            <input type="text" class="qty"/>
+                        </p>
+                        <button onclick="addCart(this)">Add to Cart</button>
+                    </div>
+                     <div class="product-card">
+                        <img src="" alt=""/>
+                        <h3>Wireless Headphones</h3>
+                        <p>$79.99</p>
+                        <p>
+                            <label>Qty</label>
+                            <input type="text" class="qty"/>
+                        </p>
+                        <button onclick="addCart(this)">Add to Cart</button>
+                    </div>
+                     <div class="product-card">
+                        <img src="" alt=""/>
+                        <h3>Backpack</h3>
+                        <p>$39.99</p>
+                        <p>
+                            <label>Qty</label>
+                            <input type="text" class="qty"/>
+                        </p>
+                        <button onclick="addCart(this)">Add to Cart</button>
+                    </div>
+                     <div class="product-card">
+                        <img src="" alt=""/>
+                        <h3>Smart Watch</h3>
+                        <p>$99.99</p>
+                        <p>
+                            <label>Qty</label>
+                            <input type="text" class="qty"/>
+                        </p>
+                        <button onclick="addCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+            </section>
+            <!--end products section-->
+            <!--dynamic section created-->
         </main>
+         <!--footer section-->
+            <footer class="footer">
+                <div>&copy; 2023 E-Commerce. All rights reserved.</div>
+                 <div class="social">
+                <a href="#">FB</a>
+                <a href="#">IG</a>
+                <a href="#">TW</a>
+                <a href="www.google.com">G</a>
+            </div>
+            <div>
+                <label> Subscribe Emails</label>
+                <input type="text" id="emailSubscribe" />
+                <button>Subscribe</button>
+            </div>
+            </footer>
+            <!--end footer section-->
     </div>
     <script src="script.js"></script>
 </body>
